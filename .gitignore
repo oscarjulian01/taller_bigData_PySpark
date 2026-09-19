@@ -1,1 +1,10 @@
+# Ignorar datasets y archivos pesados
 US_Accidents_March23.csv
+*.csv
+*.parquet
+*.zip
+*.tar.gz
+
+# Checkpoints de Jupyter y caché de Python
+.ipynb_checkpoints/
+__pycache__/
